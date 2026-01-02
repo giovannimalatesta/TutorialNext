@@ -23,7 +23,7 @@ const links = [
 ];
 
 export default function NavLinks() {
-  const pathname = usePathname();
+  const pathname = usePathname(); //nos da la direccion de la ruta actual
   return (
     <>
       {links.map((link) => {
